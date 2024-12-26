@@ -1,0 +1,12 @@
+@DotaDashboard_HostAddress = http://localhost:3000
+
+GET {{DotaDashboard_HostAddress}}/api/user
+Accept: application/json
+
+POST {{DotaDashboard_HostAddress}}/api/user
+Accept: application/json
+
+DELETE {{DotaDashboard_HostAddress}}/api/user
+Accept: application/json
+
+###
